@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Qual é o primeiro livro da Bíblia?",
+    "options": ["Êxodo", "Gênesis", "Levítico", "Números"],
+    "correctAnswer": "Gênesis"
+  },
+  {
+    "question": "Quem construiu a arca?",
+    "options": ["Moisés", "Abraão", "Noé", "Davi"],
+    "correctAnswer": "Noé"
+  },
+  {
+    "question": "Quantos discípulos Jesus escolheu?",
+    "options": ["7", "10", "12", "13"],
+    "correctAnswer": "12"
+  },
+  {
+    "question": "Quem derrotou Golias?",
+    "options": ["Saul", "Salomão", "Davi", "Sansão"],
+    "correctAnswer": "Davi"
+  },
+  {
+    "question": "Qual é o último livro da Bíblia?",
+    "options": ["Malaquias", "Judas", "Apocalipse", "Hebreus"],
+    "correctAnswer": "Apocalipse"
+  },
+  {
+    "question": "Onde Jesus nasceu?",
+    "options": ["Jerusalém", "Nazaré", "Belém", "Jericó"],
+    "correctAnswer": "Belém"
+  },
+  {
+    "question": "Quem foi jogado na cova dos leões?",
+    "options": ["Daniel", "José", "Jonas", "Elias"],
+    "correctAnswer": "Daniel"
+  },
+  {
+    "question": "Quantos mandamentos foram dados a Moisés no Monte Sinai?",
+    "options": ["5", "7", "10", "12"],
+    "correctAnswer": "10"
+  },
+  {
+    "question": "Quem foi vendido por seus irmãos como escravo para o Egito?",
+    "options": ["Benjamim", "José", "Rúben", "Judá"],
+    "correctAnswer": "José"
+  },
+  {
+    "question": "Qual é o livro mais longo da Bíblia?",
+    "options": ["Gênesis", "Isaías", "Salmos", "Jeremias"],
+    "correctAnswer": "Salmos"
+  },
+  {
+    "question": "Quem foi o primeiro homem criado por Deus?",
+    "options": ["Abel", "Sethi", "Adão", "Caim"],
+    "correctAnswer": "Adão"
+  },
+  {
+    "question": "Qual mar Moisés abriu para o povo de Israel passar?",
+    "options": ["Mar Morto", "Mar da Galileia", "Mar Vermelho", "Mar Mediterrâneo"],
+    "correctAnswer": "Mar Vermelho"
+  },
+  {
+    "question": "Quem foi o traidor de Jesus entre os discípulos?",
+    "options": ["Pedro", "Tomé", "Judas Iscariotes", "Tiago"],
+    "correctAnswer": "Judas Iscariotes"
+  },
+  {
+    "question": "Quem era a esposa de Abraão?",
+    "options": ["Raquel", "Sara", "Rebeca", "Lia"],
+    "correctAnswer": "Sara"
+  },
+  {
+    "question": "Qual profeta foi engolido por um grande peixe?",
+    "options": ["Elias", "Eliseu", "Jonas", "Amós"],
+    "correctAnswer": "Jonas"
+  },
+  {
+    "question": "Quantos livros tem a Bíblia completa (versão protestante)?",
+    "options": ["66", "73", "40", "50"],
+    "correctAnswer": "66"
+  },
+  {
+    "question": "Quem era o homem mais forte da Bíblia?",
+    "options": ["Golias", "Davi", "Sansão", "Gideão"],
+    "correctAnswer": "Sansão"
+  },
+  {
+    "question": "Qual era a profissão de Pedro antes de seguir Jesus?",
+    "options": ["Carpinteiro", "Coletor de impostos", "Pescador", "Pastor"],
+    "correctAnswer": "Pescador"
+  },
+  {
+    "question": "Quem escreveu a maioria das epístolas no Novo Testamento?",
+    "options": ["Pedro", "João", "Paulo", "Lucas"],
+    "correctAnswer": "Paulo"
+  },
+  {
+    "question": "Qual foi o primeiro milagre de Jesus?",
+    "options": ["Andar sobre as águas", "Cura de um cego", "Transformação de água em vinho", "Multiplicação dos pães"],
+    "correctAnswer": "Transformação de água em vinho"
+  },
+  {
+    "question": "Quem subiu ao céu em um redemoinho com carro de fogo?",
+    "options": ["Moisés", "Elias", "Enoque", "Eliseu"],
+    "correctAnswer": "Elias"
+  },
+  {
+    "question": "Qual o nome do jardim onde Adão e Eva viviam?",
+    "options": ["Getsêmani", "Éden", "Canaã", "Babel"],
+    "correctAnswer": "Éden"
+  },
+  {
+    "question": "Quantas pragas foram enviadas ao Egito?",
+    "options": ["3", "7", "10", "12"],
+    "correctAnswer": "10"
+  },
+  {
+    "question": "Quem foi o sucessor de Moisés na liderança de Israel?",
+    "options": ["Calebe", "Josué", "Arão", "Gideão"],
+    "correctAnswer": "Josué"
+  },
+  {
+    "question": "Qual discípulo negou Jesus três vezes?",
+    "options": ["João", "Tiago", "Pedro", "André"],
+    "correctAnswer": "Pedro"
+  },
+  {
+    "question": "Quem foi o primeiro rei de Israel?",
+    "options": ["Davi", "Salomão", "Saul", "Samuel"],
+    "correctAnswer": "Saul"
+  },
+  {
+    "question": "Quem era conhecido como o 'Rei Sábio'?",
+    "options": ["Davi", "Josias", "Salomão", "Ezequias"],
+    "correctAnswer": "Salomão"
+  },
+  {
+    "question": "Qual o nome da montanha onde Moisés recebeu as tábuas da Lei?",
+    "options": ["Monte das Oliveiras", "Monte Sinai", "Monte Carmelo", "Monte Tabor"],
+    "correctAnswer": "Monte Sinai"
+  },
+  {
+    "question": "Quem batizou Jesus no rio Jordão?",
+    "options": ["Pedro", "Paulo", "João Batista", "André"],
+    "correctAnswer": "João Batista"
+  },
+  {
+    "question": "Qual livro bíblico conta a história da saída do povo do Egito?",
+    "options": ["Gênesis", "Êxodo", "Levítico", "Números"],
+    "correctAnswer": "Êxodo"
+  },
+  {
+    "question": "Quem era o pai de Salomão?",
+    "options": ["Saul", "Davi", "Samuel", "Natã"],
+    "correctAnswer": "Davi"
+  },
+  {
+    "question": "Qual apóstolo era médico?",
+    "options": ["Mateus", "Marcos", "Lucas", "João"],
+    "correctAnswer": "Lucas"
+  },
+  {
+    "question": "Quem disse: 'Eu e minha casa serviremos ao Senhor'?",
+    "options": ["Moisés", "Abraão", "Josué", "Davi"],
+    "correctAnswer": "Josué"
+  },
+  {
+    "question": "Quem foi a mulher que traiu Sansão contando o segredo da sua força?",
+    "options": ["Dalila", "Rute", "Ester", "Jezabel"],
+    "correctAnswer": "Dalila"
+  },
+  {
+    "question": "O que Deus criou no primeiro dia?",
+    "options": ["O sol e a lua", "Os animais", "A luz", "O homem"],
+    "correctAnswer": "A luz"
+  },
+  {
+    "question": "Quem era o filho mais novo de Jacó?",
+    "options": ["José", "Benjamim", "Rúben", "Dã"],
+    "correctAnswer": "Benjamim"
+  },
+  {
+    "question": "Quantos anos o povo de Israel vagou pelo deserto?",
+    "options": ["10 anos", "40 anos", "100 anos", "7 anos"],
+    "correctAnswer": "40 anos"
+  },
+  {
+    "question": "Quem ressuscitou Lázaro?",
+    "options": ["Pedro", "Jesus", "Paulo", "Elias"],
+    "correctAnswer": "Jesus"
+  },
+  {
+    "question": "Qual o nome do anjo que apareceu para Maria para anunciar o nascimento de Jesus?",
+    "options": ["Miguel", "Rafael", "Gabriel", "Uriel"],
+    "correctAnswer": "Gabriel"
+  },
+  {
+    "question": "Quem escreveu o livro de Atos dos Apóstolos?",
+    "options": ["Pedro", "Paulo", "Lucas", "João"],
+    "correctAnswer": "Lucas"
+  },
+  {
+    "question": "Qual o nome da torre que os homens tentaram construir para chegar ao céu?",
+    "options": ["Torre de Davi", "Torre de Babel", "Torre de Jericó", "Torre de Sião"],
+    "correctAnswer": "Torre de Babel"
+  },
+  {
+    "question": "Quem era a mãe de Samuel?",
+    "options": ["Ana", "Penina", "Isabel", "Rute"],
+    "correctAnswer": "Ana"
+  },
+  {
+    "question": "Qual cidade teve suas muralhas derrubadas após o povo marchar ao redor dela?",
+    "options": ["Babilônia", "Nínive", "Jericó", "Samaria"],
+    "correctAnswer": "Jericó"
+  },
+  {
+    "question": "Quem foi a rainha que salvou o povo judeu de um massacre na Pérsia?",
+    "options": ["Ester", "Vasti", "Raabe", "Atalia"],
+    "correctAnswer": "Ester"
+  },
+  {
+    "question": "Quantas pessoas estavam na arca de Noé?",
+    "options": ["2", "4", "8", "12"],
+    "correctAnswer": "8"
+  },
+  {
+    "question": "Qual o menor versículo da Bíblia (em português)?",
+    "options": ["No princípio criou Deus...", "Jesus chorou.", "Amai-vos uns aos outros.", "Deus é amor."],
+    "correctAnswer": "Jesus chorou."
+  },
+  {
+    "question": "Quem foi o companheiro de Paulo em sua primeira viagem missionária?",
+    "options": ["Silas", "Timóteo", "Barnabé", "Lucas"],
+    "correctAnswer": "Barnabé"
+  },
+  {
+    "question": "Qual o nome do monte onde Jesus foi crucificado?",
+    "options": ["Gólgota", "Monte Sinai", "Monte das Oliveiras", "Monte Moriá"],
+    "correctAnswer": "Gólgota"
+  },
+  {
+    "question": "Quem era o rei do Egito durante o Êxodo?",
+    "options": ["Herodes", "Nabucondonosor", "Faraó", "Ciro"],
+    "correctAnswer": "Faraó"
+  },
+  {
+    "question": "Quem era a irmã de Moisés?",
+    "options": ["Miriã", "Débora", "Raabe", "Noemi"],
+    "correctAnswer": "Miriã"
+  },
+  {
+    "question": "Qual profeta confrontou os profetas de Baal no Monte Carmelo?",
+    "options": ["Isaías", "Jeremias", "Elias", "Ezequiel"],
+    "correctAnswer": "Elias"
+  },
+  {
+    "question": "Quem foi transformado em estátua de sal?",
+    "options": ["A esposa de Abraão", "A esposa de Ló", "A filha de Ló", "A nora de Noé"],
+    "correctAnswer": "A esposa de Ló"
+  },
+  {
+    "question": "Qual o nome da sogra de Rute?",
+    "options": ["Orfa", "Ana", "Noemi", "Sara"],
+    "correctAnswer": "Noemi"
+  },
+  {
+    "question": "Quem era o governador romano que condenou Jesus à morte?",
+    "options": ["Herodes", "Pôncio Pilatos", "César Augusto", "Félix"],
+    "correctAnswer": "Pôncio Pilatos"
+  },
+  {
+    "question": "Quem escreveu o livro de Lamentações?",
+    "options": ["Davi", "Isaías", "Jeremias", "Ezequiel"],
+    "correctAnswer": "Jeremias"
+  },
+  {
+    "question": "Qual o nome do mar onde Jesus acalmou a tempestade?",
+    "options": ["Mar Vermelho", "Mar da Galileia", "Mar Morto", "Mar Cáspio"],
+    "correctAnswer": "Mar da Galileia"
+  },
+  {
+    "question": "Quantos pães e peixes Jesus usou para alimentar 5 mil pessoas?",
+    "options": ["5 pães e 2 peixes", "7 pães e 3 peixes", "12 pães e 12 peixes", "2 pães e 5 peixes"],
+    "correctAnswer": "5 pães e 2 peixes"
+  },
+  {
+    "question": "Quem era o imperador de Roma quando Jesus nasceu?",
+    "options": ["Nero", "César Augusto", "Tibério", "Cláudio"],
+    "correctAnswer": "César Augusto"
+  },
+  {
+    "question": "Qual discípulo era conhecido por duvidar da ressurreição de Jesus?",
+    "options": ["Tomé", "Filipe", "Bartolomeu", "Tiago"],
+    "correctAnswer": "Tomé"
+  },
+  {
+    "question": "Quem foi levado ao céu sem morrer, além de Elias?",
+    "options": ["Noé", "Enoque", "Abraão", "Moisés"],
+    "correctAnswer": "Enoque"
+  },
+  {
+    "question": "Quantos capítulos tem o livro de Salmos?",
+    "options": ["100", "119", "150", "200"],
+    "correctAnswer": "150"
+  },
+  {
+    "question": "Qual o nome do gigante que Davi matou?",
+    "options": ["Og", "Golias", "Anaque", "Nimrode"],
+    "correctAnswer": "Golias"
+  },
+  {
+    "question": "Quem foi o profeta que sucedeu Elias?",
+    "options": ["Eliseu", "Amós", "Habacuque", "Naum"],
+    "correctAnswer": "Eliseu"
+  },
+  {
+    "question": "Quem era o pai de João Batista?",
+    "options": ["Zacarias", "José", "Simão", "Levi"],
+    "correctAnswer": "Zacarias"
+  },
+  {
+    "question": "Qual animal falou com Balaão?",
+    "options": ["Uma serpente", "Uma jumenta", "Um leão", "Um cordeiro"],
+    "correctAnswer": "Uma jumenta"
+  },
+  {
+    "question": "Quem foi o apóstolo que escreveu o Apocalipse?",
+    "options": ["Pedro", "Paulo", "João", "Tiago"],
+    "correctAnswer": "João"
+  },
+  {
+    "question": "Quem era a mulher que morava em Jericó e ajudou os espiões de Israel?",
+    "options": ["Raabe", "Débora", "Jael", "Gideão"],
+    "correctAnswer": "Raabe"
+  },
+  {
+    "question": "Qual tribo de Israel era responsável pelo serviço do templo?",
+    "options": ["Judá", "Benjamin", "Levi", "Efraim"],
+    "correctAnswer": "Levi"
+  },
+  {
+    "question": "Quem era o rei de Judá que viu a sombra retroceder dez graus no relógio?",
+    "options": ["Josias", "Ezequias", "Manassés", "Acaz"],
+    "correctAnswer": "Ezequias"
+  },
+  {
+    "question": "O que significa o nome 'Emanuel'?",
+    "options": ["Deus é amor", "Deus conosco", "Salvador", "Messias"],
+    "correctAnswer": "Deus conosco"
+  },
+  {
+    "question": "Qual discípulo de Jesus era publicano (coletor de impostos)?",
+    "options": ["Pedro", "Mateus", "André", "João"],
+    "correctAnswer": "Mateus"
+  },
+  {
+    "question": "Quem foi o sucessor de Saul como rei?",
+    "options": ["Jônatas", "Abner", "Davi", "Salomão"],
+    "correctAnswer": "Davi"
+  },
+  {
+    "question": "Qual era a cidade onde viviam Maria, Marta e Lázaro?",
+    "options": ["Betânia", "Galileia", "Samaria", "Emaús"],
+    "correctAnswer": "Betânia"
+  },
+  {
+    "question": "Quem era o sogro de Moisés?",
+    "options": ["Labão", "Jetro", "Potífera", "Melquisedeque"],
+    "correctAnswer": "Jetro"
+  },
+  {
+    "question": "Quantos dias Jesus jejuou no deserto?",
+    "options": ["7 dias", "12 dias", "40 dias", "100 dias"],
+    "correctAnswer": "40 dias"
+  },
+  {
+    "question": "Qual o nome da ilha para onde o apóstolo João foi exilado?",
+    "options": ["Chipre", "Creta", "Patmos", "Malta"],
+    "correctAnswer": "Patmos"
+  },
+  {
+    "question": "Quem foi a única juíza mulher em Israel?",
+    "options": ["Débora", "Ester", "Rute", "Miriã"],
+    "correctAnswer": "Débora"
+  },
+  {
+    "question": "O que os magos do Oriente trouxeram para o menino Jesus?",
+    "options": ["Ouro, Prata e Pedras", "Ouro, Incenso e Mirra", "Pão e Vinho", "Vestes reais"],
+    "correctAnswer": "Ouro, Incenso e Mirra"
+  },
+  {
+    "question": "Qual o nome do pai de Abraão?",
+    "options": ["Terá", "Naor", "Harã", "Ló"],
+    "correctAnswer": "Terá"
+  },
+  {
+    "question": "Quem foi o primeiro mártir cristão?",
+    "options": ["Tiago", "Estêvão", "Pedro", "Paulo"],
+    "correctAnswer": "Estêvão"
+  },
+  {
+    "question": "Qual o nome do sucessor do apóstolo Judas Iscariotes?",
+    "options": ["Matias", "Barnabé", "Silas", "Timóteo"],
+    "correctAnswer": "Matias"
+  },
+  {
+    "question": "Quem era o melhor amigo de Davi?",
+    "options": ["Saul", "Jônatas", "Natã", "Absalão"],
+    "correctAnswer": "Jônatas"
+  },
+  {
+    "question": "Quantas vezes devemos perdoar, segundo Jesus disse a Pedro?",
+    "options": ["7 vezes", "70 vezes", "70 vezes 7", "Infinito"],
+    "correctAnswer": "70 vezes 7"
+  },
+  {
+    "question": "Qual praga forçou o Faraó a deixar o povo de Israel sair?",
+    "options": ["Rãs", "Gafanhotos", "Trevas", "Morte dos primogênitos"],
+    "correctAnswer": "Morte dos primogênitos"
+  },
+  {
+    "question": "Quem reconstruiu os muros de Jerusalém após o exílio?",
+    "options": ["Esdras", "Neemias", "Zorobabel", "Daniel"],
+    "correctAnswer": "Neemias"
+  },
+  {
+    "question": "Quem era o homem mais velho da Bíblia?",
+    "options": ["Adão", "Noé", "Matusalém", "Abraão"],
+    "correctAnswer": "Matusalém"
+  },
+  {
+    "question": "Qual apóstolo foi picado por uma víbora na ilha de Malta e não morreu?",
+    "options": ["Pedro", "Paulo", "João", "Tiago"],
+    "correctAnswer": "Paulo"
+  },
+  {
+    "question": "Quem era o rei da Babilônia que teve um sonho com uma estátua gigante?",
+    "options": ["Belsazar", "Nabucondonosor", "Ciro", "Dário"],
+    "correctAnswer": "Nabucondonosor"
+  },
+  {
+    "question": "Quem foi a mãe de Isaque?",
+    "options": ["Agar", "Sara", "Raquel", "Lia"],
+    "correctAnswer": "Sara"
+  },
+  {
+    "question": "Qual o nome do anjo que lutou com Jacó?",
+    "options": ["O próprio Deus / Anjo do Senhor", "Miguel", "Gabriel", "Satanás"],
+    "correctAnswer": "O próprio Deus / Anjo do Senhor"
+  },
+  {
+    "question": "Quantas tribos tinha Israel?",
+    "options": ["7", "10", "12", "40"],
+    "correctAnswer": "12"
+  },
+  {
+    "question": "Quem escreveu o livro de Provérbios?",
+    "options": ["Davi", "Salomão", "Ezequias", "Agur"],
+    "correctAnswer": "Salomão"
+  },
+  {
+    "question": "Qual foi o sinal da aliança de Deus com Noé?",
+    "options": ["Uma pomba", "Um arco-íris", "Um altar", "A arca"],
+    "correctAnswer": "Um arco-íris"
+  },
+  {
+    "question": "Quem era o pai de Ismael?",
+    "options": ["Isaque", "Jacó", "Abraão", "Ló"],
+    "correctAnswer": "Abraão"
+  },
+  {
+    "question": "Quem foi a rainha que visitou Salomão para testar sua sabedoria?",
+    "options": ["Rainha de Sabá", "Rainha Ester", "Jezabel", "Cleópatra"],
+    "correctAnswer": "Rainha de Sabá"
+  },
+  {
+    "question": "Qual o nome da cidade que Deus disse a Jonas para pregar?",
+    "options": ["Társis", "Nínive", "Babilônia", "Samaria"],
+    "correctAnswer": "Nínive"
+  },
+  {
+    "question": "O que aconteceu quando Jesus morreu na cruz?",
+    "options": ["O véu do templo se rasgou", "Houve um eclipse total", "Os discípulos fugiram para Roma", "O templo foi destruído"],
+    "correctAnswer": "O véu do templo se rasgou"
+  },
+  {
+    "question": "Quem era o irmão de Arão?",
+    "options": ["Moisés", "Josué", "Calebe", "Eleazar"],
+    "correctAnswer": "Moisés"
+  },
+  {
+    "question": "Qual o nome do monte onde Jesus foi transfigurado?",
+    "options": ["Monte Sinai", "Monte Tabor", "Monte Carmelo", "Monte das Oliveiras"],
+    "correctAnswer": "Monte Tabor"
+  },
+  {
+    "question": "Quem disse: 'Para mim o viver é Cristo e o morrer é lucro'?",
+    "options": ["Pedro", "João", "Paulo", "Tiago"],
+    "correctAnswer": "Paulo"
+  }
+]
