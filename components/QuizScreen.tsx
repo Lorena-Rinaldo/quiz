@@ -3,48 +3,51 @@ import React, { useState } from "react";
 import questions from "../questions.json";
 
 export default function QuizScreen() {
-  const [indiceAtual, setIndiceAtual] = useState(0);
-  const [pontuacao, setPontuacao] = useState(0);
-  const [opcaoSelecionada, setOpcaoSelecionada] = useState(null);
-  const [quizFinalizado, setQuizFinalizado] = useState(false);
 
-  const currentQuestion = questions[indiceAtual];
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const currentQuestion = questions[currentQuestionIndex]
 
-  function alterarQuestao(opcao) {
-    if (opcaoSelecionada !== null) return;
+  const [selectedOption, setSelectedOption] = useState(null);
 
-    setOpcaoSelecionada(opcao);
+  const [score, setScore] = useState(0);
+
+  const [quizFinished, setQuizFinished] = useState(false);
+
+  function changeQuestion(opcao) {
+    if (selectedOption !== null) return;
+
+    setSelectedOption(opcao);
 
     if (opcao === currentQuestion.correctAnswer) {
-      setPontuacao(pontuacao + 1);
+      setScore(score + 1);
     }
 
     setTimeout(() => {
-      const proximoIndice = indiceAtual + 1;
+      const proximoIndice = currentQuestionIndex + 1;
 
       if (proximoIndice < questions.length) {
-        setIndiceAtual(proximoIndice);
-        setOpcaoSelecionada(null);
+        setCurrentQuestionIndex(proximoIndice);
+        setSelectedOption(null);
       } else {
-        setQuizFinalizado(true);
+        setQuizFinished(true);
       }
     }, 2500);
   }
 
-  if (quizFinalizado) {
+  if (quizFinished) {
     return (
       <View style={styles.container}>
         <Text style={styles.questionText}>Quiz Finalizado!</Text>
         <Text style={styles.optionText}>
-          Sua pontuação: {pontuacao} de {questions.length}
+          Sua pontuação: {score} de {questions.length}
         </Text>
         <TouchableOpacity
           style={[styles.option, { marginTop: 20 }]}
           onPress={() => {
-            setIndiceAtual(0);
-            setPontuacao(0);
-            setQuizFinalizado(false);
-            setOpcaoSelecionada(null);
+            setCurrentQuestionIndex(0);
+            setScore(0);
+            setQuizFinished(false);
+            setSelectedOption(null);
           }}
         >
           <Text>Recomeçar</Text>
@@ -62,11 +65,11 @@ export default function QuizScreen() {
       <View style={styles.optionsContainer}>
         {currentQuestion.options.map((option) => {
           let estiloBotao = styles.option;
-          if (opcaoSelecionada !== null) {
+          if (selectedOption !== null) {
             if (option === currentQuestion.correctAnswer){
               estiloBotao = styles.correctOption;
             }
-            else if(option === opcaoSelecionada){
+            else if(option === selectedOption){
               estiloBotao = styles.wrongOption;
             }
           }
@@ -75,7 +78,7 @@ export default function QuizScreen() {
             <TouchableOpacity
               key={option}
               style={estiloBotao}
-              onPress={() => alterarQuestao(option)}
+              onPress={() => changeQuestion(option)}
             >
               <Text style={styles.optionText}>{option}</Text>
             </TouchableOpacity>
