@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
   },
   progressBarFill: {
     height: "100%",
-    backgroundColor: "#9d794a",
+    backgroundColor: "#bf9257",
   },
   questionContainer: {
     width: "100%",
