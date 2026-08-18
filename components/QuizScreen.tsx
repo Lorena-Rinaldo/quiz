@@ -1,7 +1,8 @@
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity, Vibration } from "react-native";
 import React, { useState, useEffect } from "react";
 import questions from "../questions.json";
 import { Ionicons } from "@expo/vector-icons";
+import * as Haptics from "expo-haptics";
 
 export default function QuizScreen({ onFinish }) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -13,6 +14,10 @@ export default function QuizScreen({ onFinish }) {
 
   useEffect(() => {
     if (selectedOption !== null) return;
+
+    if (timer === 10) {
+      Vibration.vibrate();
+    }
 
     if (timer === 0) {
       handleTimeUp();
@@ -33,11 +38,13 @@ export default function QuizScreen({ onFinish }) {
 
   function changeQuestion(opcao) {
     if (selectedOption !== null) return;
-
     setSelectedOption(opcao);
 
     if (opcao === currentQuestion.correctAnswer) {
       setScore(score + 1);
+      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+    } else {
+      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error); 
     }
 
     setTimeout(() => goToNextQuestion(), 2500);
@@ -66,6 +73,17 @@ export default function QuizScreen({ onFinish }) {
         <Text style={[styles.timerText, timer <= 10 && { color: "#A70100" }]}>
           {timer}s
         </Text>
+      </View>
+
+      <View style={styles.progressBarContainer}>
+        <View
+          style={[
+            styles.progressBarFill,
+            {
+              width: `${((currentQuestionIndex + 1) / questions.length) * 100}%`,
+            },
+          ]}
+        />
       </View>
 
       <View style={styles.questionContainer}>
@@ -118,6 +136,18 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: "bold",
     color: "#D2A56C",
+  },
+  progressBarContainer: {
+    width: "100%",
+    height: 8,
+    backgroundColor: "#D9D9D9",
+    borderRadius: 4,
+    marginBottom: 20,
+    overflow: "hidden",
+  },
+  progressBarFill: {
+    height: "100%",
+    backgroundColor: "#9d794a",
   },
   questionContainer: {
     width: "100%",
